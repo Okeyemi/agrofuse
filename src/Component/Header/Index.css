@@ -1,0 +1,104 @@
+/* .carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background-size: cover;
+}
+
+.carousel-item-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 4rem;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel-caption h3 {
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+
+
+.btn-lg {
+  width: 100%;
+}
+
+.carousel-image-container {
+  position: relative;
+  height: 100vh;
+}
+
+.carousel-caption-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 700px;
+  padding: 0 20px;
+}
+
+.carousel-caption-container h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-caption-container p {
+  font-size: 1.5rem;
+  font-weight: 300;
+} */
+
+.carousel-container {
+  height: calc(100vh - 58px); /* Subtract navbar height from viewport height */
+  position: relative;
+  /* Set the top position to navbar height */
+}
+
+.carousel-container img {
+  height: 90%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  
+  /* max-width: 800px; */
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.carousel-caption h3 {
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0.015em;
+  margin: 20%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding-top: 30px;
+}
