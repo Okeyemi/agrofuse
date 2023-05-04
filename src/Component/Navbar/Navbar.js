@@ -10,6 +10,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+
   return (
     <nav className=" nav">
       <div className="max-w-7xl  px-2 sm:px-6 lg:px-8">
@@ -23,7 +24,7 @@ const Navbar = () => {
               />
             </Link>
           </div>
-          <div className="absolute inset-y-0 right-0 lex items-center sm:hidden">
+          <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
             <button
               type="button"
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -77,25 +78,23 @@ const Navbar = () => {
                 >
                   Home
                 </Link>
-                <Link
-                  to="/shop"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Shop
-                </Link>
-                <Link
-                  to="/invest"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                 Invest
-                </Link>
-                <Link
-                  to="/list"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  List
-                </Link>
                 
+                  <a href="#shop"className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      >
+                    Shop
+                  </a>
+              
+                < a href="#invest" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                    Invest
+                </a>
+              
+               
+               <a href="list" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+               List
+                
+               </a>
+              
+                 
                 <Link
                   to="/about"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"

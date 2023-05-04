@@ -2,7 +2,9 @@ import React from 'react'
 
 const Shop = () => {
   return (
-    <div>Shop</div>
+    <div className='mb-50%'> Shop 
+      <button className='button-style '>shop</button>
+    </div>
   )
 }
 
