@@ -7,6 +7,8 @@ import './Index.css'
 
 function UncontrolledExample() {
   return (
+    <div id='home'>
+
     <Carousel  indicators={false} nextLabel={null} prevLabel={null}>
       <Carousel.Item className='carousel-image-container '>
         <img
@@ -60,6 +62,7 @@ function UncontrolledExample() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 
