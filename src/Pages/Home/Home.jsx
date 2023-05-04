@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../Component/Header/Index'
+import Shop from '../Shop/Shop'
 import Imagedepictingservice1 from '../../assets/Imagedepictingservice1.png'
 import Imagedepictingservice2 from '../../assets/Imagedepictingservice2.png'
 import Imagedepictingservice3 from '../../assets/Imagedepictingservice3.png'
@@ -7,9 +8,9 @@ import Imagedepictingservice3 from '../../assets/Imagedepictingservice3.png'
 const Home = () => {
   return (
     <div  >
-      <>
+      <div id='home' >
         <Header />
-      </>
+      </div>
 
       {/* Our Serevice */}
     <div id='shop'>
@@ -56,16 +57,11 @@ const Home = () => {
       </div>
       </div>
     </div>
+    <div>
+      <Shop />
+      </div> 
+      </div>
 
-      <div className="md:mt-32 ">
-        <img src={Imagedepictingservice2} alt="Our service" />
-      </div>
-      <div className="bg-green-500 h-24"></div>
-      <div className="bg-purple-500 h-24"></div>
-      <div className=" my-6 h-24">
-        
-      </div>
-    </div>
     
   )
 }
