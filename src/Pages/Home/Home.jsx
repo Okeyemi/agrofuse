@@ -58,10 +58,10 @@ const Home = () => {
       </div>
       </div>
     </div>
-    <div>
+    <div >
       <Shop />
       </div> 
-      <div>
+      <div id='about'  >
         <About />
       </div>
       </div>
