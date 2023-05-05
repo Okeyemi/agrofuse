@@ -4,6 +4,7 @@ import Shop from '../Shop/Shop'
 import Imagedepictingservice1 from '../../assets/Imagedepictingservice1.png'
 import Imagedepictingservice2 from '../../assets/Imagedepictingservice2.png'
 import Imagedepictingservice3 from '../../assets/Imagedepictingservice3.png'
+import About from '../About-Us/About'
 
 const Home = () => {
   return (
@@ -30,11 +31,11 @@ const Home = () => {
       </div>
       </div>
 
-      <div className="grid md:grid-cols-2 mx-10  ">
+      <div id='invest' className="grid md:grid-cols-2 mx-10 pt-12 ">
       <div className='md:h-[642.82px] md:w-[860.22px] pt-20 md:pt-0 '>
         <img className=''  src={Imagedepictingservice2} alt="Our service" />
       </div>
-      <div id='invest' className="text-right ">
+      <div  className="text-right  ">
         <h2 className='text-2xl py-4  font-semibold'>Investment</h2>
         <p className='text-[#293B14]  md:text-4xl font-bold'>Join Our Journey to <br/> Modernize Farming <br/> and Secure Your Financial Future </p>
         <p className='md:text-xl my-4 '>With the increasing demand for sustainable  <br/> agriculture, our journey towards modernizing <br/> farming can be your path to financial success.</p>
@@ -44,7 +45,7 @@ const Home = () => {
       </div>
       </div>
 
-      <div id='List' className="grid md:grid-cols-3 ">
+      <div id='list' className="grid md:grid-cols-3 mt-10  ">
       <div className="md:ml-20 ml-10">
         <h2 className='text-2xl py-4 md:text-left font-semibold'>Listing</h2>
         <p className='text-[#293B14]  md:text-4xl font-bold'> Get More Customers, Boost Your Income and Expand your Thriving Farm Today!</p>
@@ -60,6 +61,9 @@ const Home = () => {
     <div>
       <Shop />
       </div> 
+      <div>
+        <About />
+      </div>
       </div>
 
     
